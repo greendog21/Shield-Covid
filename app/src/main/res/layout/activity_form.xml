@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/form_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView_formTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="@string/please_fill_out_the_form_below_to_the_best_of_your_abilities" />
+
+        <TextView
+            android:id="@+id/textView_titleNotice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:textColor="#a7a7a7"
+            android:text="@string/we_do_not_share_your_information_with_anybody_your_information_is_private_and_only_used_to_produce_your_risk_assessment" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="start"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="#d3d3d3"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView_nameTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/name"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/editText_inputName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:maxLength="14"
+                android:hint="@string/enter_your_first_name"
+                android:inputType="textPersonName"
+                android:textColor="#000"
+                android:textColorHint="#FFFF"
+                android:textSize="12sp"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/textView_ageTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/age"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/editText_inputAge1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:hint="@string/enter_your_age"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textColorHint="#FFFF"
+                android:textSize="12sp"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/textView_healthConditionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:paddingTop="5dp"
+
+                android:paddingBottom="10dp"
+                android:text="@string/underlying_health_conditions_check_all_that_apply"
+                android:textColor="#000" />
+
+            <CheckBox
+                android:id="@+id/checkbox_kidney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:text="@string/chronic_kidney_disease" />
+
+            <CheckBox
+                android:id="@+id/checkbox_COPD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:text="@string/chronic_obstructive_pulmonary_disease_copd" />
+
+            <CheckBox
+                android:id="@+id/checkbox_weak_immune"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:text="@string/immunocompromised_state_weakened_immune_system_from_solid_organ_transplant" />
+
+            <CheckBox
+                android:id="@+id/checkbox_obesity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:text="@string/obesity_bmi_of_30_or_higher" />
+
+            <CheckBox
+                android:id="@+id/checkbox_heart_conditions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="12sp"
+                android:text="@string/serious_heart_conditions_such_as_heart_failure_coronary_artery_disease_or_cardiomyopathies" />
+
+            <CheckBox
+                android:id="@+id/checkbox_sickle_cell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sickle_cell_disease"
+                android:textSize="12sp"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_diabetes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/type_2_diabetes_mellitus"
+                android:textSize="12sp"/>
+
+            <Button
+                android:id="@+id/submit_button"
+                tools:layout_editor_absoluteX="150dp"
+                tools:layout_editor_absoluteY="300dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/darker_gray"
+                android:onClick="onGetAgeClick"
+                android:padding="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/submit_information"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="20dp"/>
+            "/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

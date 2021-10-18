@@ -1,0 +1,42 @@
+<resources>
+    <string name="text">
+        <a href = "https://www.cdc.gov/covid-data-tracker/index.html#cases">Here</a>
+    </string>
+    <string name="app_name">RiskAssessmentApp</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_form">Form</string>
+    <string name="title_activity_display__layout">Display_Layout</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="what_county_do_you_live_in">What county do you live in?</string>
+    <string name="click_here_to_go_to_risk_assessment_form">Click here to go to risk assessment form</string>
+    <string name="location_Instruction">Please input your location if this is the first time you are using our app or else our risk assessment will not work. If you want to change your location just reselect the location.</string>
+    <string name="todo">TODO</string>
+    <string name="click_here_to_go_to_the_display">Click here to go to the display</string>
+    <string name="our_services_only_work_for_those_that_live_in_united_states_and_some_territories_belonging_to_america_if_you_cannot_find_your_county_please_choose_an_alternative_one_that_is_closets_to_you">Our services only work for those that live in United States and some territories belonging to America. If you cannot find your county please choose an alternative one that is closets to you.</string>
+    <string name="please_fill_out_the_form_below_to_the_best_of_your_abilities">Please fill out the form below to the best of your abilities</string>
+    <string name="name">Name:</string>
+    <string name="enter_your_first_name">Enter Your First Name</string>
+    <string name="age">Age:</string>
+    <string name="enter_your_age">Enter Your Age</string>
+    <string name="underlying_health_conditions_check_all_that_apply">Underlying Health Conditions (check all that apply):</string>
+    <string name="chronic_kidney_disease">Chronic kidney disease</string>
+    <string name="chronic_obstructive_pulmonary_disease_copd">Chronic obstructive pulmonary disease (COPD)</string>
+    <string name="immunocompromised_state_weakened_immune_system_from_solid_organ_transplant">Immunocompromised state (weakened immune system) from solid organ transplant</string>
+    <string name="obesity_bmi_of_30_or_higher">Obesity (BMI of 30 or higher)</string>
+    <string name="serious_heart_conditions_such_as_heart_failure_coronary_artery_disease_or_cardiomyopathies">Serious heart conditions, such as heart failure, coronary artery disease, or cardiomyopathies</string>
+    <string name="sickle_cell_disease">Sickle cell disease</string>
+    <string name="type_2_diabetes_mellitus">Type 2 diabetes mellitus</string>
+    <string name="submit_information">Submit Information</string>
+    <string name="we_do_not_share_your_information_with_anybody_your_information_is_private_and_only_used_to_produce_your_risk_assessment">We do not share your information with anybody. Your information is private and only used to produce your risk assessment.</string>
+    <string name="our_services_only_work_for_those_that_live_in_united_states_and_some_territories_belonging_to_america_if_you_cannot_find_your_county_please_choose_an_alternative_that_is_closest_to_you" />
+    <string name="fuck">Our services only work for those that live in united states and some territories belonging to america if you cannot find your county please choose an alternative that is closest to you</string>
+    <string name="fuck1">Please input your location if this is the first time you are using our app or else our risk assessment will not work. If you want to change your location just reselect the location.</string>
+</resources>
