@@ -1,1 +1,1 @@
-# Shield-Covid
+# Shield Covid Android App
